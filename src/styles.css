@@ -81,6 +81,10 @@ p {
 
 }
 
+.content {
+    margin: 30px;
+}
+
 .content h1 {
     font-size: 64px;
     line-height: 80px;
@@ -101,8 +105,9 @@ p {
     font-size: 14px;
 }
 
-.content {
-    margin: 30px;
+.contact-link {
+    text-decoration: none;
+    color: var(--branding-color);
 }
 
 @media (max-width: 985px) {
